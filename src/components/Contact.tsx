@@ -42,10 +42,10 @@ const Contact = () => {
                   <div>
                     <p className="font-semibold mb-2 text-foreground">Email</p>
                     <a
-                      href="mailto:reservations@thaganaglen.com"
+                      href="mailto:reservations@thaganaglen.co.ke"
                       className="text-muted-foreground hover:text-primary transition-colors break-all font-light"
                     >
-                      reservations@thaganaglen.com
+                      reservations@thaganaglen.co.ke
                     </a>
                   </div>
                 </div>
