@@ -22,7 +22,7 @@ const Contact = () => {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="flex flex-col items-center text-center gap-4 group">
                   <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-all duration-300">
-                    <Phone className="w-7 h-7 text-primary group-hover:scale-110 transition-transform" />
+                    <Mail className="w-7 h-7 text-primary group-hover:scale-110 transition-transform" />
                   </div>
                   <div>
                     <p className="font-semibold mb-2 text-foreground">Email</p>
