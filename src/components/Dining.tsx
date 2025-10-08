@@ -1,4 +1,4 @@
-import diningImage from "@/assets/dining.jpg";
+import diningImage from "@/assets/tasty-pakistani-dish-top-view.jpg";
 
 const dishes = [
   "Stone-milled millet ugali with seasonal greens and groundnut relish",

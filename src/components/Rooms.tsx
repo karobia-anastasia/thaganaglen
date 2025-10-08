@@ -1,6 +1,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import roomImage from "@/assets/room-forest.jpg";
+import roomImage2 from "@/assets/pillow-bed-decoration-bedroom-interior.jpg";
+import roomImage from "@/assets/bed-with-canopy.jpg";
+import roomImage3 from "@/assets/tent-interor-with-bed-dishes-glamping.jpg";
+
 
 const rooms = [
   {
@@ -11,12 +14,12 @@ const rooms = [
   {
     title: "Glen Suites",
     description: "Spacious options for families or longer stays: separate lounge, compact kitchenette, and curated Meru textiles.",
-    image: roomImage,
+    image: roomImage2,
   },
   {
     title: "Mt. Kenya Deluxe",
     description: "Top-floor rooms with panoramic peak views, premium linens, and artisan finishes.",
-    image: roomImage,
+    image: roomImage3,
   },
 ];
 
