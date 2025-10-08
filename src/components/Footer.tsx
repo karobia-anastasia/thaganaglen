@@ -35,8 +35,8 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-6 text-foreground text-sm tracking-wide uppercase">Connect</h4>
             <div className="space-y-3 text-sm text-muted-foreground font-light">
-              <p>reservations@thaganaglen.com</p>
-              <p>+254 7xx xxx xxx</p>
+              <p>reservations@thaganaglen.co.ke</p>
+              <p>info@thaganaglen.co.ke</p>
               <p>Meru County, Kenya</p>
             </div>
           </div>

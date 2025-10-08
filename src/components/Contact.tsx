@@ -25,12 +25,12 @@ const Contact = () => {
                     <Phone className="w-7 h-7 text-primary group-hover:scale-110 transition-transform" />
                   </div>
                   <div>
-                    <p className="font-semibold mb-2 text-foreground">Phone</p>
+                    <p className="font-semibold mb-2 text-foreground">Email</p>
                     <a
-                      href="tel:+254700000000"
+                      href=""
                       className="text-muted-foreground hover:text-primary transition-colors font-light"
                     >
-                      +254 7xx xxx xxx
+                      info@thaganaglen.co.ke
                     </a>
                   </div>
                 </div>
