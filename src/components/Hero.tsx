@@ -10,9 +10,11 @@ const Hero = () => {
   return (
     <section className="relative flex items-center justify-center bg-gradient-to-br from-background via-background/90 to-primary/10 overflow-hidden py-16 sm:py-20 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
+        {/* On mobile: text first, image second */}
+        {/* On desktop: image right, text left */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 items-center">
           {/* Content */}
-          <div className="space-y-5 sm:space-y-6 md:space-y-8 text-center md:text-left order-2 md:order-1">
+          <div className="space-y-5 sm:space-y-6 md:space-y-8 text-center md:text-left order-1 md:order-1">
             {/* Tagline */}
             <div className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-primary/10 rounded-full border border-primary/20 backdrop-blur-sm animate-fadeIn">
               <p className="text-xs sm:text-sm md:text-base tracking-widest uppercase bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60 font-medium">
@@ -50,7 +52,7 @@ const Hero = () => {
           </div>
 
           {/* Image */}
-          <div className="relative h-64 sm:h-80 md:h-96 lg:h-[500px] rounded-xl overflow-hidden shadow-xl animate-fadeIn order-1 md:order-2">
+          <div className="relative h-64 sm:h-80 md:h-96 lg:h-[500px] rounded-xl overflow-hidden shadow-xl animate-fadeIn order-2 md:order-2">
             <img
               src={heroImage}
               alt="Thagana Glen Highland Sanctuary"
