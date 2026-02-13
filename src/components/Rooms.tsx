@@ -25,7 +25,7 @@ const rooms = [
 
 const Rooms = () => {
   return (
-    <section id="rooms" className="py-24 bg-muted/30">
+    <section id="services" className="py-24 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-20">
           <p className="text-sm tracking-[0.3em] uppercase text-primary font-medium mb-6">Accommodations</p>

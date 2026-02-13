@@ -1,15 +1,21 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/thagana-logo.png"; // ✅ keep your logo path
+import logo from "@/assets/thagana-logo.png"; // keep your logo path
+const navLinks = [
+  { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
+  { name: "Contact", href: "#contact" },
+  { name: "Services", href: "#services" },
 
+];
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+    const [isScrolled, setIsScrolled] = useState(false);
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md shadow-md transition-all duration-300">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
-        {/* ✅ Logo */}
+        {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
           <img
             src={logo}
@@ -17,8 +23,21 @@ const Header = () => {
             className="h-10 w-auto object-contain"
           />
         </Link>
+        <div className="hidden lg:flex items-center gap-12">
+          {navLinks.map((link) => (
+            <a
+              key={link.name}
+              href={link.href}
+              className={`text-sm font-light tracking-wider transition-all duration-300 hover:text-grey ${
+                isScrolled ? "text-black" : "text-black"
+              } hover:scale-110`}
+            >
+              {link.name}
+            </a>
+          ))}
+        </div>
 
-        {/* Desktop Navigation */}
+        {/* Desktop Navigation
         <nav className="hidden md:flex space-x-8 mtext-sm font-medium pb-4">
           <Link to="/" className="hover:text-primary transition-colors">
             Home
@@ -32,7 +51,7 @@ const Header = () => {
           <Link to="/contact" className="hover:text-primary transition-colors">
             Contact
           </Link>
-        </nav>
+        </nav> */}
 
         {/* Hamburger Menu */}
         <button
@@ -56,21 +75,21 @@ const Header = () => {
               Home
             </Link>
             <Link
-              to="/about"
+              to="#about"
               onClick={() => setIsOpen(false)}
               className="hover:text-primary transition-colors"
             >
               About
             </Link>
             <Link
-              to="/services"
+              to="#services"
               onClick={() => setIsOpen(false)}
               className="hover:text-primary transition-colors"
             >
               Services
             </Link>
             <Link
-              to="/contact"
+              to="#contact"
               onClick={() => setIsOpen(false)}
               className="hover:text-primary transition-colors"
             >

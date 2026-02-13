@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="py-32 bg-secondary/30">
+    <section className="py-32 bg-secondary/30" id="about">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -11,7 +11,7 @@ const About = () => {
                   A Highland Sanctuary
                 </h2>
               </div>
-              
+           
               <div className="space-y-6 text-base text-muted-foreground leading-relaxed">
                 <p>
                   Perched at 1,500 meters in the lush Meru highlands, <strong className="text-foreground font-semibold">Thagana Glen Hotel</strong> is 
@@ -23,7 +23,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            
+  
             <div className="space-y-6">
               <div className="bg-card p-8 rounded-2xl shadow-card border border-border/50">
                 <p className="text-lg text-foreground leading-relaxed italic">
