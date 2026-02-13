@@ -15,7 +15,7 @@ const About = () => {
               <div className="space-y-6 text-base text-muted-foreground leading-relaxed">
                 <p>
                   Perched at 1,500 meters in the lush Meru highlands, <strong className="text-foreground font-semibold">Thagana Glen Hotel</strong> is 
-                  where indigenous forest meets open sky—a serene escape designed for modern travelers seeking authentic connection.
+                  where indigenous forest meets open sky a serene escape designed for modern travelers seeking authentic connection.
                 </p>
                 <p>
                   Our thoughtfully curated spaces blend contemporary comfort with local artistry, while our kitchen celebrates 

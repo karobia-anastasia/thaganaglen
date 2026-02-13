@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <h3 className="font-serif text-2xl font-bold mb-4 text-foreground">Thagana Glen</h3>
             <p className="text-sm text-muted-foreground leading-relaxed font-light">
-              A boutique highland retreat in Meru, Kenya—where authentic hospitality meets mountain serenity.
+              A boutique highland retreat in Meru, Kenya where authentic hospitality meets mountain serenity.
             </p>
           </div>
           

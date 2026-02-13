@@ -27,8 +27,8 @@ const Dining = () => {
             </div>
             
             <p className="text-lg text-muted-foreground leading-relaxed font-light">
-              Our kitchen celebrates Meru's culinary heritage—heirloom grains, garden vegetables, 
-              river fish, and free-range meats—prepared with traditional wisdom and contemporary elegance.
+              Our kitchen celebrates Meru's culinary heritage heirloom grains, garden vegetables, 
+              river fish, and free-range meats prepared with traditional wisdom and contemporary elegance.
             </p>
             
             <h3 className="font-serif text-3xl font-semibold mb-6 text-foreground">
