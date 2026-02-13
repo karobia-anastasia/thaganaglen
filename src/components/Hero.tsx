@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/mk5.png";
+import heroImage from "@/assets/mk5.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
