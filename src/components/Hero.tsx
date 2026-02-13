@@ -41,14 +41,18 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
-            <Button
-              onClick={scrollToContact}
-              size="lg"
-              className="bg-[#2D6A4F] hover:bg-[#1B4332] rounded-full px-10 h-14 text-lg"
-            >
-              Book Your Retreat
-            </Button>
-
+<a 
+    href="https://docs.google.com/forms/d/e/1FAIpQLSc-ZgK77CG3e5EMnqWWEHkW1JRGUEKsiKq1Ha-8H-DvlbVdiQ/viewform?usp=header"
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Button
+      size="lg"
+      className="bg-[#2D6A4F] hover:bg-[#1B4332] rounded-full px-10 h-14 text-lg"
+    >
+      Book Your Retreat
+    </Button>
+  </a>
             <Button
               variant="secondary"
               size="lg"

@@ -63,15 +63,6 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="text-center pt-6">
-                <Button
-                  size="lg"
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-7 rounded-full shadow-elegant transition-all duration-300 hover:shadow-xl hover:scale-105"
-                >
-                  Check Availability
-                </Button>
-              </div>
-
               <div className="border-t border-border/30 pt-8 text-center text-sm text-muted-foreground space-y-3 font-light">
                 <p>
                   <strong className="text-foreground font-medium">Getting Here:</strong> By road from Nairobi (A2/Nanyuki route); by air via Nanyuki 
