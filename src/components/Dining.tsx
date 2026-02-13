@@ -1,4 +1,4 @@
-import diningImage from "@/assets/tasty-pakistani-dish-top-view.jpg";
+import diningImage from "@/assets/mk4.jpg";
 
 const dishes = [
   "Stone-milled millet ugali with seasonal greens and groundnut relish",
@@ -36,8 +36,7 @@ const Dining = () => {
             </h3>
             <ul className="space-y-4 mb-10">
               {dishes.map((dish, index) => (
-                <li key={index} className="flex items-start gap-4 group animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
-                  <span className="text-primary mt-1.5 text-xl group-hover:scale-125 group-hover:rotate-90 transition-all duration-300">✦</span>
+                <li key={index} className="flex items-start gap-4 group animate-fade-in" >
                   <span className="text-muted-foreground font-light leading-relaxed group-hover:text-foreground transition-colors">{dish}</span>
                 </li>
               ))}

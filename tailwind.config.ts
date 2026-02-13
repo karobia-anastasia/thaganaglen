@@ -13,10 +13,11 @@ export default {
       },
     },
     extend: {
-      fontFamily: {
-        'serif': ['Cormorant Garamond', 'serif'],
-        'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-      },
+fontFamily: {
+  serif: ['"Libre Baskerville"', 'serif'],
+  sans: ['Lato', 'sans-serif'],
+},
+
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
