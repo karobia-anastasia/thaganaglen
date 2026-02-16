@@ -6,6 +6,22 @@
 All colors MUST be HSL.
 */
 
+/* Only disable selection if you really want to deter copy-pasting */
+@media (prefers-reduced-motion: no-preference) {
+  body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
+
+/* Allow users to still type in inputs and textareas */
+input, textarea {
+  user-select: text !important;
+  -webkit-user-select: text !important;
+}
+
 
 html, body {
   max-width: 100%;
