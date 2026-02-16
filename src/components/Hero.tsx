@@ -53,13 +53,16 @@ const Hero = () => {
       Book Your Retreat
     </Button>
   </a>
-            <Button
-              variant="secondary"
-              size="lg"
-              className="bg-white text-black hover:bg-white/90 rounded-full px-10 h-14 text-lg"
-            >
-              Explore More
-            </Button>
+<a href="#experiences">
+  <Button
+    variant="secondary"
+    size="lg"
+    className="bg-white text-black hover:bg-white/90 rounded-full px-10 h-14 text-lg"
+  >
+    Explore More
+  </Button>
+</a>
+
           </div>
         </div>
       </div>
